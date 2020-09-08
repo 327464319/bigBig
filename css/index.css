@@ -56,7 +56,6 @@ a {
     background: -webkit-linear-gradient(left, #00fffb, #0061ce);
 }
 
-.layui-nav-tree .layui-this>a,
 .layui-nav-tree {
     background: -webkit-linear-gradient(left, #0061ce, #6edceb);
 }

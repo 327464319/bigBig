@@ -41,7 +41,6 @@ $(function() {
                     return layer.msg(res.message)
                 }
                 form.val('userInfoFilter', res.data)
-
             }
         })
     }

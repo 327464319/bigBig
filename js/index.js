@@ -27,8 +27,7 @@ function getUserDate() {
             if (res.status != 0) return
             var name = res.data.nickname || res.data.username
             $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
-            console.log(res.data.user_pic);
-            console.log(res.data.user_pic == null);
+
             if (res.data.user_pic == null) {
                 $('.text-avatar').html(name.substr(0, 1).toUpperCase())
 
@@ -41,4 +40,9 @@ function getUserDate() {
 
         }
     })
+}
+
+function xys() {
+    $('#xys1').removeClass('layui-this')
+    $('#xys2').addClass('layui-this')
 }
